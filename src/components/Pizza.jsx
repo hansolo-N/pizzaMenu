@@ -1,12 +1,12 @@
 import React from 'react'
 
 
-function Pizza(pizzadata) {
+function Pizza({pizza}) {
   return (
     <div>
-        <img src={pizzadata.photoName} alt="" />
-        <h2>{pizzadata.name}</h2>
-        <p>{pizzadata.ingredients}</p>
+        <img src={pizza.photoName} alt="" />
+        <h2>{pizza.name}</h2>
+        <p>{pizza.ingredients}</p>
     </div>
   )
 }

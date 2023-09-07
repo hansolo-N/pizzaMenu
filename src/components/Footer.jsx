@@ -3,19 +3,23 @@ import React from 'react'
 function Footer() {
   const hour = new Date().getHours()
 
-  const openHour = 12;
+  const openHour = 8;
 
   const closeHour = 22;
 
-  if(hour >= openHour && hour <=closeHour){
-    alert("We're currently open")
-  }
-  else{
-    alert("Sorry we're closed!")
-  }
+  const isOpen = hour>= openHour && hour <= closeHour
 
+ 
   return (
-    <footer id='footer'>We're currently open!</footer>
+        <footer className='footer'>
+          
+          {isOpen && (<div className='order'>
+          <p>We're currently open until {closeHour}:00. come visit us or order online</p>
+          <button className='btn'>Order</button>
+          </div>
+          
+          
+          )}</footer>
   )
 }
 
