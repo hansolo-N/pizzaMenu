@@ -5,8 +5,12 @@ function Pizza({pizza}) {
   return (
     <div>
         <img src={pizza.photoName} alt="" />
-        <h2>{pizza.name}</h2>
-        <p>{pizza.ingredients}</p>
+        <div>
+          <h3>{pizza.name}</h3>
+          <p>{pizza.ingredients}</p>
+          <span>{pizza.price}</span>
+        </div>
+
     </div>
   )
 }
