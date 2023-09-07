@@ -31,5 +31,5 @@ function Order({closeHour,openHour}){
   
   )
   }
-
+  
 export default Footer
