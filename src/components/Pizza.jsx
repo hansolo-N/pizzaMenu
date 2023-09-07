@@ -3,6 +3,7 @@ import React from 'react'
 
 function Pizza({pizza}) {
 
+  if(pizza.soldOut) return null
   return (
     <div>
 
