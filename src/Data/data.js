@@ -4,7 +4,7 @@ const pizzaData = [
       name: "Focaccia",
       ingredients: "Bread with italian olive oil and rosemary",
       price: 6,
-      photoName: ".../public/pizzas/focaccia-pizza-recipe-5213782-hero-03-1fd12e591656464e889edeab2e555425.jpg",
+      photoName: "pizzas/focaccia.jpg",
       soldOut: false,
     },
     {
@@ -12,7 +12,7 @@ const pizzaData = [
       name: "Pizza Margherita",
       ingredients: "Tomato and mozarella",
       price: 10,
-      photoName: ".../public/pizzas/margherita2.jpg",
+      photoName: "pizzas/margherita.jpg",
       soldOut: false,
     },
     {
@@ -20,7 +20,7 @@ const pizzaData = [
       name: "Pizza Spinaci",
       ingredients: "Tomato, mozarella, spinach, and ricotta cheese",
       price: 12,
-      photoName: ".../public/pizzas/spinaci.jpg",
+      photoName: "pizzas/spinaci.jpg",
       soldOut: false,
     },
     {
@@ -28,7 +28,7 @@ const pizzaData = [
       name: "Pizza Funghi",
       ingredients: "Tomato, mozarella, mushrooms, and onion",
       price: 12,
-      photoName: ".../public/pizzas/funghi.jpg",
+      photoName: "pizzas/funghi.jpg",
       soldOut: false,
     },
     {
@@ -36,15 +36,15 @@ const pizzaData = [
       name: "Pizza Salamino",
       ingredients: "Tomato, mozarella, and pepperoni",
       price: 15,
-      photoName: ".../public/pizzas/salamino.jpg",
-      soldOut: false,
+      photoName: "pizzas/salamino.jpg",
+      soldOut: true,
     },
     {
       id:6,
       name: "Pizza Prosciutto",
       ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
       price: 18,
-      photoName: ".../public/pizzas/prosciutto.jpg",
+      photoName: "pizzas/prosciutto.jpg",
       soldOut: false,
     },
   ];

@@ -10,7 +10,6 @@ import { useState } from 'react'
 function Menu() {
 
   const [pizzas,setData] = useState(pizzaData);
-
   return (
     <div className='menu'>
       <h2>Our Menu</h2>
@@ -18,14 +17,14 @@ function Menu() {
       <ul className='pizzas'>
       {pizzas.map((pizza)=>(
         <Pizza key ={pizza.id} pizza ={pizza}/>
+       
       ))}
       
       </ul>
       ): null}
-      
+
 
     </div>
   )
 }
-
 export default Menu
